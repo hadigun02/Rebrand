@@ -1,0 +1,140 @@
+body{
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: 1.5px solid black;
+    background-color:black;
+    text-decoration: none;
+    height: 90px;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.navbar1{
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar2{
+    font-size:20px;
+    font-weight:100;
+}
+.sign-in{
+    font-size: 55px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(63, 62, 62);
+}
+.form{
+    text-align: center;
+    padding-top: 30px;
+}
+.email{
+    color: white;
+    font-size: 45px;
+    font-weight: 200;
+    text-align: center;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+.email2{
+    padding-top: 10px;
+    height: 25px;
+    width: 350px;
+}
+.password{
+    color: white;
+    font-size: 45px;
+    font-weight: 200;
+    text-align: center;
+    padding-right: -7px;
+    padding-top: 30px;
+}
+.password2{
+    padding-top: 10px;
+    height: 25px;
+    width: 350px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.sbutton{
+    height: 40px;
+    width: 350px;
+    background-color: rgb(26, 25, 25);
+    color: white;
+}
+
+.new{
+    /* display: flex; */
+    margin-top: 3em;
+    align-items: center;
+}
+
+.nrb{
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+}
+.sign-up{
+    text-align: center;
+    list-style: none;
+    margin-top: 0.3em;
+}
+.sign-up a{
+    color: white;
+}
+
+
+
+footer{
+    display: block;
+    color: white;
+    height: 200px;
+    width: 100%;
+    /* border: 2px solid white; */
+    margin-top: 5em;
+    padding: 3em;
+    background-color: rgb(14, 13, 13);
+}
+.follow-us{
+    text-align: center;
+    font-size: 25px;
+}
+.socials{
+    display: flex;
+    justify-content: center;
+}
+.socials2{
+    width: 3em;
+    margin-top: 1em;
+    margin-right:1.5em;
+}
+.rights{
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 5em;
+}
+.tp{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.7em;
+}
+.t{
+    font-size: 1em;
+    margin-right: 0.7em;
+}
+.p{
+    font-size: 1em;
+}

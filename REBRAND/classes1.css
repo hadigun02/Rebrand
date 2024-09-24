@@ -1,0 +1,197 @@
+body{
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: 1.5px solid black;
+    background-color:black;
+    text-decoration: none;
+    height: 90px;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.navbar1{
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar2{
+    font-size:25px;
+    font-weight:400;
+}
+header{
+    text-align: center;
+    font-size: 85px;
+    padding-top: 60px;
+    color: white;
+    font-weight: 900;
+    font-style: inherit;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding-top: 2px;
+    font-style: serif;
+}
+.header{
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(63, 62, 62);
+}
+
+.subnav{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    color: white;
+    border: 1.5px solid black;
+    background-color:black;
+}
+
+.subnav ul li{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    list-style: none;
+    font-size: 34px;
+}
+.subnav a{
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+}
+.subnav a:hover
+{
+    background-image: linear-gradient(to right, rgb(235, 125, 143), black);
+    cursor: pointer;
+    animation-name:bounce;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+}
+@keyframes bounce 
+{
+    50%{
+        transform: translateY(-4px);
+    }
+}
+
+.subnav li:hover .dropdown-1 >li{
+    top: 0;
+    display: block;
+}
+.dropdown-1 li{
+    display: none;
+    position: relative;
+    font-size: 15px;
+    padding-top: 3px;
+}
+.dropdown-1 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    right: 2%;
+    top: 20px;
+}
+.dropdown-1 a{
+    font-size: 15px;
+    color: rgb(222, 216, 207);
+}
+
+.dropdown-1 li:hover .dropdown-2 li{
+    display: block;
+}
+.dropdown-2 li
+{
+    display: none;
+    position: relative;
+    font-size: 15px;
+    padding-top: 3px;
+}
+.dropdown-2
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 2%;
+    top: 20px;
+}
+.dropdown-2 a{
+    font-size: 15px;
+    color: antiquewhite;
+}
+.vids{
+    width: 100%;
+    margin-top: 5em;
+    padding:2em;
+}
+.vids{
+    display: block;
+    justify-content: space-evenly;
+}
+iframe{
+    margin-bottom: 6.7em;
+}
+@media  (max-width:880px){
+    .vids{
+        display: block;
+        justify-content: center;
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+    .header{
+        margin-left:4em;
+    }
+}
+
+
+footer{
+    display: block;
+    color: white;
+    height: 200px;
+    width: 100%;
+    margin-top: 5em;
+    padding: 3em;
+    background-color: rgb(14, 13, 13);
+}
+.follow-us{
+    text-align: center;
+    font-size: 25px;
+}
+.socials{
+    display: flex;
+    justify-content: center;
+}
+.socials2{
+    width: 3em;
+    margin-top: 1em;
+    margin-right:1.5em;
+}
+.rights{
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 5em;
+}
+.tp{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.7em;
+}
+.t{
+    font-size: 1em;
+    margin-right: 0.7em;
+}
+.p{
+    font-size: 1em;
+}
